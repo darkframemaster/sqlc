@@ -1,8 +1,8 @@
 package sqlite
 
 import (
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
-	"github.com/sqlc-dev/sqlc/internal/sql/catalog"
+	"github.com/darkframemaster/sqlc/internal/sql/ast"
+	"github.com/darkframemaster/sqlc/internal/sql/catalog"
 )
 
 // sqlite functions from:

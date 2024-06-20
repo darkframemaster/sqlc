@@ -1,4 +1,4 @@
--- https://github.com/sqlc-dev/sqlc/issues/1728
+-- https://github.com/darkframemaster/sqlc/issues/1728
 
 CREATE TABLE IF NOT EXISTS locations (
     id              INTEGER PRIMARY KEY,
@@ -9,4 +9,3 @@ CREATE TABLE IF NOT EXISTS locations (
     longitude       REAL    NOT NULL,
     UNIQUE(name)
 );
-

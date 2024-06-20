@@ -12,8 +12,8 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	migrate "github.com/sqlc-dev/sqlc/internal/migrations"
-	"github.com/sqlc-dev/sqlc/internal/sql/sqlpath"
+	migrate "github.com/darkframemaster/sqlc/internal/migrations"
+	"github.com/darkframemaster/sqlc/internal/sql/sqlpath"
 )
 
 var postgresPool *pgxpool.Pool

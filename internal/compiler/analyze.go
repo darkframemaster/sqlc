@@ -3,13 +3,13 @@ package compiler
 import (
 	"sort"
 
-	analyzer "github.com/sqlc-dev/sqlc/internal/analysis"
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/source"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
-	"github.com/sqlc-dev/sqlc/internal/sql/named"
-	"github.com/sqlc-dev/sqlc/internal/sql/rewrite"
-	"github.com/sqlc-dev/sqlc/internal/sql/validate"
+	analyzer "github.com/darkframemaster/sqlc/internal/analysis"
+	"github.com/darkframemaster/sqlc/internal/config"
+	"github.com/darkframemaster/sqlc/internal/source"
+	"github.com/darkframemaster/sqlc/internal/sql/ast"
+	"github.com/darkframemaster/sqlc/internal/sql/named"
+	"github.com/darkframemaster/sqlc/internal/sql/rewrite"
+	"github.com/darkframemaster/sqlc/internal/sql/validate"
 )
 
 type analysis struct {

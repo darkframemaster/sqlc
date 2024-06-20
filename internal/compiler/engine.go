@@ -4,16 +4,16 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/sqlc-dev/sqlc/internal/analyzer"
-	"github.com/sqlc-dev/sqlc/internal/config"
-	"github.com/sqlc-dev/sqlc/internal/engine/dolphin"
-	"github.com/sqlc-dev/sqlc/internal/engine/postgresql"
-	pganalyze "github.com/sqlc-dev/sqlc/internal/engine/postgresql/analyzer"
-	"github.com/sqlc-dev/sqlc/internal/engine/sqlite"
-	"github.com/sqlc-dev/sqlc/internal/opts"
-	"github.com/sqlc-dev/sqlc/internal/quickdb"
-	pb "github.com/sqlc-dev/sqlc/internal/quickdb/v1"
-	"github.com/sqlc-dev/sqlc/internal/sql/catalog"
+	"github.com/darkframemaster/sqlc/internal/analyzer"
+	"github.com/darkframemaster/sqlc/internal/config"
+	"github.com/darkframemaster/sqlc/internal/engine/dolphin"
+	"github.com/darkframemaster/sqlc/internal/engine/postgresql"
+	pganalyze "github.com/darkframemaster/sqlc/internal/engine/postgresql/analyzer"
+	"github.com/darkframemaster/sqlc/internal/engine/sqlite"
+	"github.com/darkframemaster/sqlc/internal/opts"
+	"github.com/darkframemaster/sqlc/internal/quickdb"
+	pb "github.com/darkframemaster/sqlc/internal/quickdb/v1"
+	"github.com/darkframemaster/sqlc/internal/sql/catalog"
 )
 
 type Compiler struct {

@@ -1,4 +1,4 @@
--- https://github.com/sqlc-dev/sqlc/issues/1195
+-- https://github.com/darkframemaster/sqlc/issues/1195
 
 CREATE TABLE authors (
   id   BIGSERIAL PRIMARY KEY,
@@ -7,4 +7,3 @@ CREATE TABLE authors (
   name TEXT  NOT NULL,
   bio  TEXT
 );
-

@@ -1,4 +1,4 @@
--- https://github.com/sqlc-dev/sqlc/issues/1590
+-- https://github.com/darkframemaster/sqlc/issues/1590
 CREATE TABLE authors (
   name text NOT NULL,
   deleted_at datetime NOT NULL,
@@ -12,4 +12,3 @@ CREATE TABLE books (
   created_at datetime NOT NULL,
   updated_at datetime NOT NULL
 );
-

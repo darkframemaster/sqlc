@@ -6,8 +6,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/sqlc-dev/sqlc/internal/codegen/golang/opts"
-	"github.com/sqlc-dev/sqlc/internal/plugin"
+	"github.com/darkframemaster/sqlc/internal/codegen/golang/opts"
+	"github.com/darkframemaster/sqlc/internal/plugin"
 )
 
 type Field struct {

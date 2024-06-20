@@ -4,10 +4,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/sqlc-dev/sqlc/internal/metadata"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
-	"github.com/sqlc-dev/sqlc/internal/sql/astutils"
-	"github.com/sqlc-dev/sqlc/internal/sql/named"
+	"github.com/darkframemaster/sqlc/internal/metadata"
+	"github.com/darkframemaster/sqlc/internal/sql/ast"
+	"github.com/darkframemaster/sqlc/internal/sql/astutils"
+	"github.com/darkframemaster/sqlc/internal/sql/named"
 )
 
 func validateCopyfrom(n ast.Node) error {

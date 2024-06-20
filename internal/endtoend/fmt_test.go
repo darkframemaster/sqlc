@@ -8,9 +8,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/sqlc-dev/sqlc/internal/debug"
-	"github.com/sqlc-dev/sqlc/internal/engine/postgresql"
-	"github.com/sqlc-dev/sqlc/internal/sql/ast"
+	"github.com/darkframemaster/sqlc/internal/debug"
+	"github.com/darkframemaster/sqlc/internal/engine/postgresql"
+	"github.com/darkframemaster/sqlc/internal/sql/ast"
 )
 
 func TestFormat(t *testing.T) {

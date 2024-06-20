@@ -11,8 +11,8 @@ import (
 
 	"github.com/go-sql-driver/mysql"
 
-	migrate "github.com/sqlc-dev/sqlc/internal/migrations"
-	"github.com/sqlc-dev/sqlc/internal/sql/sqlpath"
+	migrate "github.com/darkframemaster/sqlc/internal/migrations"
+	"github.com/darkframemaster/sqlc/internal/sql/sqlpath"
 )
 
 var mysqlSync sync.Once
