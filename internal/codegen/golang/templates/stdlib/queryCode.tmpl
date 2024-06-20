@@ -1,8 +1,9 @@
 {{define "queryCodeStd"}}
 {{range .GoQueries}}
 {{if $.OutputQuery .SourceName}}
-const {{.ConstantName}} = {{$.Q}}-- name: {{.MethodName}} {{.Cmd}}
+const {{.ConstantName}} = {{$.Q}}
 {{escape .SQL}}
+-- name: {{.MethodName}} {{.Cmd}}
 {{$.Q}}
 
 {{if .Arg.EmitStruct}}
